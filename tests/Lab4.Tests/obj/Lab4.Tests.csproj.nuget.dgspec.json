@@ -1,0 +1,392 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/qiki/MyProjects/cs/ArbuzKaktus/tests/Lab4.Tests/Lab4.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/qiki/MyProjects/cs/ArbuzKaktus/src/Lab4.Core/Lab4.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/qiki/MyProjects/cs/ArbuzKaktus/src/Lab4.Core/Lab4.Core.csproj",
+        "projectName": "Lab4.Core",
+        "projectPath": "/home/qiki/MyProjects/cs/ArbuzKaktus/src/Lab4.Core/Lab4.Core.csproj",
+        "packagesPath": "/home/qiki/.nuget/packages/",
+        "outputPath": "/home/qiki/MyProjects/cs/ArbuzKaktus/src/Lab4.Core/obj/",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "/home/qiki/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Itmo.Dev.Editorconfig": {
+              "target": "Package",
+              "version": "[1.0.12, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.Collections": {
+              "target": "Package",
+              "version": "[1.0.50, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.Enumerable": {
+              "target": "Package",
+              "version": "[1.0.50, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.MemberAccessibility": {
+              "target": "Package",
+              "version": "[1.0.31, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.Nullable": {
+              "target": "Package",
+              "version": "[1.0.50, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.Properties": {
+              "target": "Package",
+              "version": "[1.0.50, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.507, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "coverlet.collector": "6.0.4",
+            "Itmo.Dev.Editorconfig": "1.0.12",
+            "Microsoft.NET.Test.Sdk": "17.14.1",
+            "SourceKit.Analyzers.Collections": "1.0.50",
+            "SourceKit.Analyzers.Enumerable": "1.0.50",
+            "SourceKit.Analyzers.MemberAccessibility": "1.0.31",
+            "SourceKit.Analyzers.Nullable": "1.0.50",
+            "SourceKit.Analyzers.Properties": "1.0.50",
+            "StyleCop.Analyzers": "1.2.0-beta.507",
+            "xunit": "2.9.3",
+            "xunit.runner.visualstudio": "3.1.4"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/qiki/MyProjects/cs/ArbuzKaktus/src/Lab4.Presentation/Lab4.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/qiki/MyProjects/cs/ArbuzKaktus/src/Lab4.Presentation/Lab4.Presentation.csproj",
+        "projectName": "Lab4.Presentation",
+        "projectPath": "/home/qiki/MyProjects/cs/ArbuzKaktus/src/Lab4.Presentation/Lab4.Presentation.csproj",
+        "packagesPath": "/home/qiki/.nuget/packages/",
+        "outputPath": "/home/qiki/MyProjects/cs/ArbuzKaktus/src/Lab4.Presentation/obj/",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "/home/qiki/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Itmo.Dev.Editorconfig": {
+              "target": "Package",
+              "version": "[1.0.12, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.Collections": {
+              "target": "Package",
+              "version": "[1.0.50, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.Enumerable": {
+              "target": "Package",
+              "version": "[1.0.50, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.MemberAccessibility": {
+              "target": "Package",
+              "version": "[1.0.31, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.Nullable": {
+              "target": "Package",
+              "version": "[1.0.50, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.Properties": {
+              "target": "Package",
+              "version": "[1.0.50, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.507, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "coverlet.collector": "6.0.4",
+            "Itmo.Dev.Editorconfig": "1.0.12",
+            "Microsoft.NET.Test.Sdk": "17.14.1",
+            "SourceKit.Analyzers.Collections": "1.0.50",
+            "SourceKit.Analyzers.Enumerable": "1.0.50",
+            "SourceKit.Analyzers.MemberAccessibility": "1.0.31",
+            "SourceKit.Analyzers.Nullable": "1.0.50",
+            "SourceKit.Analyzers.Properties": "1.0.50",
+            "StyleCop.Analyzers": "1.2.0-beta.507",
+            "xunit": "2.9.3",
+            "xunit.runner.visualstudio": "3.1.4"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/qiki/MyProjects/cs/ArbuzKaktus/tests/Lab4.Tests/Lab4.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/qiki/MyProjects/cs/ArbuzKaktus/tests/Lab4.Tests/Lab4.Tests.csproj",
+        "projectName": "Lab4.Tests",
+        "projectPath": "/home/qiki/MyProjects/cs/ArbuzKaktus/tests/Lab4.Tests/Lab4.Tests.csproj",
+        "packagesPath": "/home/qiki/.nuget/packages/",
+        "outputPath": "/home/qiki/MyProjects/cs/ArbuzKaktus/tests/Lab4.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "/home/qiki/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/qiki/MyProjects/cs/ArbuzKaktus/src/Lab4.Core/Lab4.Core.csproj": {
+                "projectPath": "/home/qiki/MyProjects/cs/ArbuzKaktus/src/Lab4.Core/Lab4.Core.csproj"
+              },
+              "/home/qiki/MyProjects/cs/ArbuzKaktus/src/Lab4.Presentation/Lab4.Presentation.csproj": {
+                "projectPath": "/home/qiki/MyProjects/cs/ArbuzKaktus/src/Lab4.Presentation/Lab4.Presentation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Itmo.Dev.Editorconfig": {
+              "target": "Package",
+              "version": "[1.0.12, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.14.1, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.Collections": {
+              "target": "Package",
+              "version": "[1.0.50, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.Enumerable": {
+              "target": "Package",
+              "version": "[1.0.50, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.MemberAccessibility": {
+              "target": "Package",
+              "version": "[1.0.31, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.Nullable": {
+              "target": "Package",
+              "version": "[1.0.50, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Analyzers.Properties": {
+              "target": "Package",
+              "version": "[1.0.50, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.507, )",
+              "versionCentrallyManaged": true
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )",
+              "versionCentrallyManaged": true
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[3.1.4, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "coverlet.collector": "6.0.4",
+            "Itmo.Dev.Editorconfig": "1.0.12",
+            "Microsoft.NET.Test.Sdk": "17.14.1",
+            "SourceKit.Analyzers.Collections": "1.0.50",
+            "SourceKit.Analyzers.Enumerable": "1.0.50",
+            "SourceKit.Analyzers.MemberAccessibility": "1.0.31",
+            "SourceKit.Analyzers.Nullable": "1.0.50",
+            "SourceKit.Analyzers.Properties": "1.0.50",
+            "StyleCop.Analyzers": "1.2.0-beta.507",
+            "xunit": "2.9.3",
+            "xunit.runner.visualstudio": "3.1.4"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
